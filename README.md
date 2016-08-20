@@ -11,7 +11,7 @@ foo <- geocode_google('408 Homegate Circle, Apex',
 #or
 geocode_data <- geocode_google('408 Homegate Circle, Apex NC 27502') 
 ```
-
+<img src="Screen%20Shot%202016-08-20%20at%2012.44.53%20PM.png"/>
 ### Note
 components and key are optional.
 #### components
