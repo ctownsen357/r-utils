@@ -5,12 +5,13 @@ A collection of R functions that I want to reuse.
 Contains functions for geocoding addresses.
 ### Examples
 ``` {r}
-geocode_data <- geocode_google('408 Homegate Circle, Apex', 
+foo <- geocode_google('408 Homegate Circle, Apex', 
                               components='administrative_area:NC|postal_code:27502', 
                               key='SomeKey')
 #or
 geocode_data <- geocode_google('408 Homegate Circle, Apex NC 27502') 
 ```
+
 ### Note
 components and key are optional.
 #### components
