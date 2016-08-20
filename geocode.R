@@ -8,12 +8,11 @@ library(plyr)
 #from the Google geocoding REST API
 geocode_google <- function(address, components = "", key = ""){
     return_val = NA
-    root <- "http://maps.google.com/maps/api/geocode/json"
-    sensor = "false"
-    target_url <- URLencode(paste(root, "?address=", address, 
-               "&components=", components, 
-               "&key=", key, 
-               sep = ""))
+    target_url <- URLencode(paste("http://maps.google.com/maps/api/geocode/json", 
+                                  "?address=", address, 
+                                  "&components=", components, 
+                                  "&key=", key, 
+                            sep = ""))
     
     json_doc <- fromJSON(getURL(target_url), simplify = FALSE)
     
