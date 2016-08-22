@@ -26,3 +26,4 @@ Convenience functions for viewing lat/lng coordinates on various maps.
 
 ### map_leaflet 
 Takes vectors of lat, lng, and optional popup description and places the data on a simple Leaflet map.
+<img src="2016-08-22 at 12.14.10 PM.png"/>
