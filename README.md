@@ -19,3 +19,10 @@ components, Google's nomenclature, are filters to bound the search area.  Accord
 components (see what I did there) out of your address data or you may receive errors or faulty lat/lng values.
 #### key
 key is your Google API key if you have one.
+
+
+## mapping.R
+Convenience functions for viewing lat/lng coordinates on various maps.
+
+### map_leaflet 
+Takes vectors of lat, lng, and optional popup description and places the data on a simple Leaflet map.
