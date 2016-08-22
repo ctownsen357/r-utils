@@ -11,7 +11,7 @@ foo <- geocode_google('408 Homegate Circle, Apex',
 #or
 geocode_data <- geocode_google('408 Homegate Circle, Apex NC 27502') 
 ```
-<img src="Screen%20Shot%202016-08-20%20at%2012.44.53%20PM.png"/>
+<img src="images/Screen%20Shot%202016-08-20%20at%2012.44.53%20PM.png"/>
 ### Note
 components and key are optional.
 #### components
@@ -26,4 +26,4 @@ Convenience functions for viewing lat/lng coordinates on various maps.
 
 ### map_leaflet 
 Takes vectors of lat, lng, and optional popup description and places the data on a simple Leaflet map.
-<img src="Screen%20Shot%202016-08-22%20at%2012.14.10%20PM.png"/>
+<img src="images/Screen%20Shot%202016-08-22%20at%2012.14.10%20PM.png"/>
